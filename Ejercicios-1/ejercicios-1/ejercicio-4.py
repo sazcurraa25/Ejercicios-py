@@ -1,8 +1,7 @@
 countOfNumbers= 0
+numberToKnow=(int(input("Ingresa el numero a adivinar: ")))
 while True:
-    numberToKnow=(int(input("Ingresa el numero a adivinar: ")))
     tryToKnowNumber=(int(input("Ingresa un número: ")))
-    tryOtherNumber=(int(input("Ingresa otro número: ")))
     if numberToKnow>tryToKnowNumber:
         print("El número secreto es más chico. Intente nuevamente")
         countOfNumbers=countOfNumbers+1
@@ -13,9 +12,3 @@ while True:
         print("Acertó al número secreto")
         print("Uso", countOfNumbers, "intentos para adivinar")
         break
-    elif numberToKnow != int():
-        print("El valor entregado no es valido, intente nuevamente")
-    elif tryOtherNumber != int():
-        print("El valor entregado no es valido, intente nuevamente")
-    elif tryToKnowNumber != int():
-        print("El valor entregado no es valido, intente nuevamente")
