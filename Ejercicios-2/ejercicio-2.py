@@ -4,6 +4,7 @@ lessSatisfactory=[]
 mediumSatisfactory=[]
 goodSatisfactory=[]
 excellentSatisfactory=[]
+lista=[0,0,0,0,0]
 while (numberOfParticipants < 15):
     getQualification=int(input("Exprese su satisfacción del 1 al 5: "))
     if getQualification == 1:
@@ -16,6 +17,7 @@ while (numberOfParticipants < 15):
         goodSatisfactory.append(getQualification)
     elif getQualification == 5:
         excellentSatisfactory.append(getQualification)
+        lista[4]=lista[4]+1
     else:
         print("El numero ingresado no es correcto, intente de nuevo")
         continue
