@@ -31,4 +31,11 @@ resultado = functools.reduce(suma, persona)
 print(resultado)
 # print(resultado2)
 
-persona = ["ana", "paula", ]
+# # el .zip combina varias listas en una emparejandolo por indice, donde la lista resultante se concatena toda junta 
+# zip(list1, ..., listn)
+
+# list1= [1,2,3,4]
+# list2= ['a', 'b', 'c', 'd']
+
+produce = ['manzana', 'naranja', 'pera']
+prices = [50, 40, 60] 
