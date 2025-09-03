@@ -1,0 +1,5 @@
+userGetPhrase = input("Ingrese una frase: ")
+userWords = userGetPhrase.split()
+print("Las palabras ingresadas son:", userWords)
+lengthOfWords = len(userWords)
+print(lengthOfWords)
