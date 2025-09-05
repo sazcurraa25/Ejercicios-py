@@ -15,4 +15,13 @@
     # objeto - una instancia en particular de una clase
 # entonces un objeto consiste en : 
     # una coleccion de informacion relacionada (atributos)
-
+class Animal():
+    comidas= 0 #<------------- La cantidad de comida que tiene 
+    def comer(self):
+        self.comidas = self.comidas + 1
+        print("He comido ", self.comidas, " veces")
+perro = Animal()
+perro.comer()
+perro.comer()
+Animal.comer(perro)
+print(type(perro))
