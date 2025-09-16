@@ -20,6 +20,7 @@ class Animal():
     def comer(self):
         self.comidas = self.comidas + 1
         print("He comido ", self.comidas, " veces")
+        
 perro = Animal()
 perro.comer()
 perro.comer()
