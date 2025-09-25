@@ -4,14 +4,13 @@ optionalWorks=[]
 counter=0
 while(counter<1000):
     defineWork=(input("Indica la tarea: "))
-    for work in defineWork:
-        if work == "urgente":
-            importantWorks.append(defineWork)
-        if work == "importante":
-            midWorks.append(defineWork)
-        if work == "opcional":
-            optionalWorks.append(defineWork)
-    continueOption=(input("Desea continuar? si/no: "))
+    if "Urgente" in defineWork:
+        importantWorks.append(defineWork)
+    if "Importante" in defineWork:
+        midWorks.append(defineWork)
+    if "Opcional" in defineWork:
+        optionalWorks.append(defineWork)
+    continueOption=(input("Queres agregar otra tarea SI/NO: "))
     if continueOption == "si":
         print(defineWork)
     if continueOption == "no":
