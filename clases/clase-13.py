@@ -42,3 +42,10 @@ asyncio.run(main())
 #     Chatbots híbridos
 #         ● Combinan lógica de reglas e IA avanzada
 #         ● Pueden manejar preguntas simples y complejas
+# Diferentes chatbots
+#     Chatbots Basados en Menús o Botones
+#         ● Descripción: Son los chatbots más básicos, donde el usuario selecciona opciones en un menú predeterminado para navegar por opciones específicas.
+#         ● Funcionalidad: Operan como un árbol de decisiones; son útiles para consultas simples y repetitivas.
+#         ● Limitaciones:
+#             ○ Pueden ser lentos para resolver necesidades si el usuario debe pasar por varias opciones.
+#             ○ Si la consulta del usuario no está en el menú, el chatbot no puede ayudar.
